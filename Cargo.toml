@@ -4,15 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-approx = { version = "0.5.1", features = ["num-complex"] }
 borsh = { version = "1.6.0", features = ["bson"] }
-bson = { version = "3.1.0", features = ["serde_with-3"] }
-bytecheck = { version = "0.8.2", features = ["uuid-1"] }
-geo-types = { version = "0.7.18", features = ["approx"] }
-num-complex = { version = "0.4.6", features = ["rkyv"] }
-postgres-types = { version = "0.2.12", features = ["with-geo-types-0_7"] }
-rkyv = { version = "0.8.15", features = [] }
-rust_decimal = { version = "1.40.0", features = ["db-postgres"] }
-schemars = { version = "1.2.1", features = ["rust_decimal1"] }
-serde_with = { version = "3.16.1", features = ["schemars_1"] }
 uuid = { version = "1.21.0", features = ["borsh"] }
